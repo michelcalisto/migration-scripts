@@ -53,4 +53,5 @@ fi
 
 path=$(readlink -f "$output")
 
+# Imprimimos la ruta del archivo de salida
 echo "Los resultados se han almacenado en el archivo de salida, que se encuentra en: $path"
