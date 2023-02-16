@@ -51,4 +51,4 @@ if [ $(wc -l <"$file1") != $(wc -l <"$file2") ]; then
   echo "[NOTE] Ambos archivos no tienen el mismo número de líneas." >> $output
 fi
 
-echo "Los resultados se han guardado en el archivo: $output"
+echo "Los resultados se han almacenado en el archivo de salida: $output"

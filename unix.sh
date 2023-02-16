@@ -20,3 +20,8 @@ done < <(find "$ruta" -type f -print0)
 
 # Escribimos en el archivo de salida el total de archivos
 echo "total: $total_files" >> "$output_file"
+
+path=$(readlink -f "$output_file")
+
+# Imprimimos la ruta del archivo de salida
+echo "El archivo de salida se encuentra en: $path"
