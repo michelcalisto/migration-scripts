@@ -1,5 +1,5 @@
 .\windows.ps1 -ruta "C:\MiSistema\"
-.\windowsdb.ps1 -ruta "C:\MiBasedeDatos\"
+.\windows_db.ps1 -ruta "C:\MiBasedeDatos\"
 
 ./unix.sh "/MiSistemaMigrado/"
 
