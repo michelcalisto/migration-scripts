@@ -5,7 +5,7 @@ param(
 )
 
 # Nombre del archivo de salida
-$output_file = "hashes_windowsdb.txt"
+$output_file = "hashes_windows_db.txt"
 
 # Recorremos todos los archivos de la ruta del directorio y sus subdirectorios
 Get-ChildItem -Path $ruta -Recurse | ForEach-Object {
