@@ -4,13 +4,13 @@ Scripts para la migración de proyectos.
 
 ## Uso
 
-Genera un archivo de texto hashes_windows.txt con el hash MD5 y la ruta de todos los archivos de la ruta C:\MiSistema\
+Genera un archivo de texto hashes_windows.txt con el hash MD5 y la dirección de los archivos en la ruta C:\MiSistema\
 
 ```bash
 $ .\windows.ps1 -ruta "C:\MiSistema\"
 ```
 
-Genera un archivo de texto hashes_centos.txt con el hash MD5 y la ruta de todos los archivos de la ruta /MiSistemaMigrado/
+Genera un archivo de texto hashes_centos.txt con el hash MD5 y la dirección de los archivos en la ruta /MiSistemaMigrado/
 
 ```bash
 $ ./unix.sh "/MiSistemaMigrado/"
