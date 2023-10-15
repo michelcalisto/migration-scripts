@@ -2,7 +2,7 @@
 
 Scripts para la migración de proyectos entre Sistemas Operativos.
 
-### Modificación
+## Modificación
 
 Asignar permisos de ejecución a los scripts.
 
