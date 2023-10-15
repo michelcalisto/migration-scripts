@@ -2,6 +2,17 @@
 
 Scripts para la migración de proyectos entre Sistemas Operativos.
 
+### Modificación
+
+Asignar permisos de ejecución a los scripts.
+
+``` bash
+# dar permisos de ejecución al script
+sudo chmod 775 unix.sh
+sudo chmod 775 macos.sh
+sudo chmod 775 compare.sh
+```
+
 ## Uso
 
 Genera un archivo de texto hashes_windows.txt con el hash MD5 y la dirección de los archivos en la ruta C:\MiSistema\
